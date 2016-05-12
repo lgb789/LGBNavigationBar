@@ -4,8 +4,7 @@ target 'LGBNavigationBar_Example' do
   pod 'LGBNavigationBar', :path => '../'
 
   target 'LGBNavigationBar_Tests' do
-    inherit! :search_paths
-
+ pod 'LGBNavigationBar', :path => '../'
     
   end
 end

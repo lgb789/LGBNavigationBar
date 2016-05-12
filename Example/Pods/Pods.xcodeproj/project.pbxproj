@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085DBAE5132A4B722D7D998FC29C78F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		79CD4F5F377D81E2549DFAA7209D5229 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC892FF121A4D389C3B2CE01A0E6186 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EDED9BB9F8BC8D3E8704A81909B13FC /* UINavigationBar+lgb_navigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C4ADB85D36002BAE51F62A55C2D634 /* UINavigationBar+lgb_navigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8854814AA64053B8678AF3D46D828F8E /* LGBNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982B0BAD0AB647A12EC84BBF2A9A551 /* LGBNavigationBar-dummy.m */; };
+		965D9B531DA6F33CC5A8CF6AE6DDB819 /* UINavigationBar+lgb_navigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 303CF21AC0A5F335C929DC458EA2A931 /* UINavigationBar+lgb_navigationBar.m */; };
+		A18A7AB777E93F15790FD361C8252E36 /* Pods-LGBNavigationBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6085320FDFAEB299A2DB144924C0D762 /* Pods-LGBNavigationBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A364F94D4C5E515051551DD83B355D61 /* LGBNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A08E9CA030324109379AB446E7BCAE88 /* LGBNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0E579C9D8C8C6C2E3BA21938A1ACF31 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C16BAF6216E8049C552130D8DE63C /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-dummy.m */; };
+		B5CDCB2BEC624AAEACE6BDA96B2CB26C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BF366ECD3A6EE1DA3B0B66A47092AED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F7556680F7388127E82D74D2981515ED /* Pods-LGBNavigationBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9CD054F110A8D72A54BDA3DA9A20C1 /* Pods-LGBNavigationBar_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00740BFF3F7ADD830865FCED4E341B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFEB2E7B2538DBD7AD2AA928EBA8298;
+			remoteInfo = LGBNavigationBar;
+		};
+		57509DD0F87FF20377989362A341E73C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFEB2E7B2538DBD7AD2AA928EBA8298;
+			remoteInfo = LGBNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0253CB675DA90575BB7EEB16934AC3C8 /* Pods-LGBNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0ADE720943861AA40268A172758875D0 /* Pods-LGBNavigationBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBNavigationBar_Example-resources.sh"; sourceTree = "<group>"; };
+		1A936FD2D7D4ABA013ACA84819B8F0A8 /* LGBNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4CF18E125E51E3D7DFCF2EDD4AD4FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303CF21AC0A5F335C929DC458EA2A931 /* UINavigationBar+lgb_navigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+lgb_navigationBar.m"; sourceTree = "<group>"; };
+		3704996BAD2485DF943EA11E1309355C /* Pods-LGBNavigationBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBNavigationBar_Example.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46C4CAC8B3B4B65CB15191FB9E7DD8C1 /* Pods-LGBNavigationBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBNavigationBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46C69B1931DD3BFE61A33A0A2D444F79 /* Pods_LGBNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4982B0BAD0AB647A12EC84BBF2A9A551 /* LGBNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBNavigationBar-dummy.m"; sourceTree = "<group>"; };
+		4CC7160AA2F16969010E6A533AE58F8A /* LGBNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBNavigationBar.modulemap; sourceTree = "<group>"; };
+		536C16BAF6216E8049C552130D8DE63C /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C427D2DA02E403BA4CC93B97CCC75AC /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6085320FDFAEB299A2DB144924C0D762 /* Pods-LGBNavigationBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBNavigationBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		64BCDC27BF8BB23BCE03183858AFBDEA /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.modulemap"; sourceTree = "<group>"; };
+		66C4ADB85D36002BAE51F62A55C2D634 /* UINavigationBar+lgb_navigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+lgb_navigationBar.h"; sourceTree = "<group>"; };
+		7AB24BC1381A98BE71BF6C00F0F4922C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D0B98D162A7A28835017B80160CE894 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D2C269D57A4B7FA21898157FF7F8D92 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7E9F1297854547422E8BA16DC36CE187 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FECADA4F23736492D29901F3AC9F6BD /* LGBNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBNavigationBar-prefix.pch"; sourceTree = "<group>"; };
+		96F9B8B9C6F8D544E8B5E689D6996A7E /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		989BB6757039FBF760B0925BA0195097 /* LGBNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBNavigationBar.xcconfig; sourceTree = "<group>"; };
+		A08E9CA030324109379AB446E7BCAE88 /* LGBNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBNavigationBar-umbrella.h"; sourceTree = "<group>"; };
+		A8F5E46693278AE759724CBBEE74006A /* Pods-LGBNavigationBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBNavigationBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD19AD55B6623CC5DB529BC75F4B55A8 /* Pods-LGBNavigationBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBNavigationBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEC892FF121A4D389C3B2CE01A0E6186 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C0B509E27F9359B68CB7475D4449F4F2 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5FF39E672AB8A5E9B09554B3AFB5F30 /* Pods-LGBNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C8B3E27B729A3D9D3869969E46E0E9 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		CF9CD054F110A8D72A54BDA3DA9A20C1 /* Pods-LGBNavigationBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBNavigationBar_Example-dummy.m"; sourceTree = "<group>"; };
+		DF77029BCC8858736E9A8DA4DCB35F37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3817C272F4346AC2D60A383711964F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5CDCB2BEC624AAEACE6BDA96B2CB26C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C1A5343141675C044D98C6FDD357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085DBAE5132A4B722D7D998FC29C78F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AE21F4DF8E9461DD738291E36FC931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF366ECD3A6EE1DA3B0B66A47092AED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AD5568EA4478564E6449C3E323CB16 /* LGBNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				7C4C9DB63223474EE58281CC9EDA2CF8 /* Classes */,
+			);
+			path = LGBNavigationBar;
+			sourceTree = "<group>";
+		};
+		4A92DA56EC68E03ED7BA9F82943E94C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF77029BCC8858736E9A8DA4DCB35F37 /* Info.plist */,
+				4CC7160AA2F16969010E6A533AE58F8A /* LGBNavigationBar.modulemap */,
+				989BB6757039FBF760B0925BA0195097 /* LGBNavigationBar.xcconfig */,
+				4982B0BAD0AB647A12EC84BBF2A9A551 /* LGBNavigationBar-dummy.m */,
+				8FECADA4F23736492D29901F3AC9F6BD /* LGBNavigationBar-prefix.pch */,
+				A08E9CA030324109379AB446E7BCAE88 /* LGBNavigationBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGBNavigationBar";
+			sourceTree = "<group>";
+		};
+		64228285FB909414098E6D3672F2DA3E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE06DCD2049B851703CD82FA288680B /* LGBNavigationBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6ECFB75B08D68CF7A07F29D251FE92B2 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7AB24BC1381A98BE71BF6C00F0F4922C /* Info.plist */,
+				64BCDC27BF8BB23BCE03183858AFBDEA /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.modulemap */,
+				7D0B98D162A7A28835017B80160CE894 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-acknowledgements.markdown */,
+				C0B509E27F9359B68CB7475D4449F4F2 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-acknowledgements.plist */,
+				536C16BAF6216E8049C552130D8DE63C /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-dummy.m */,
+				7D2C269D57A4B7FA21898157FF7F8D92 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-frameworks.sh */,
+				C9C8B3E27B729A3D9D3869969E46E0E9 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-resources.sh */,
+				BEC892FF121A4D389C3B2CE01A0E6186 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-umbrella.h */,
+				7E9F1297854547422E8BA16DC36CE187 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */,
+				5C427D2DA02E403BA4CC93B97CCC75AC /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests";
+			path = "Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests";
+			sourceTree = "<group>";
+		};
+		7986F0D1A9A3C0E71CA666CB87BB30DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF08E71E04232125110808A3190A222 /* Pods-LGBNavigationBar_Example */,
+				6ECFB75B08D68CF7A07F29D251FE92B2 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C4C9DB63223474EE58281CC9EDA2CF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66C4ADB85D36002BAE51F62A55C2D634 /* UINavigationBar+lgb_navigationBar.h */,
+				303CF21AC0A5F335C929DC458EA2A931 /* UINavigationBar+lgb_navigationBar.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				64228285FB909414098E6D3672F2DA3E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9628396C9D0405AED5A119E5C7C2C4F0 /* Products */,
+				7986F0D1A9A3C0E71CA666CB87BB30DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9628396C9D0405AED5A119E5C7C2C4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A936FD2D7D4ABA013ACA84819B8F0A8 /* LGBNavigationBar.framework */,
+				46C69B1931DD3BFE61A33A0A2D444F79 /* Pods_LGBNavigationBar_Example.framework */,
+				96F9B8B9C6F8D544E8B5E689D6996A7E /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DAE06DCD2049B851703CD82FA288680B /* LGBNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				05AD5568EA4478564E6449C3E323CB16 /* LGBNavigationBar */,
+				4A92DA56EC68E03ED7BA9F82943E94C1 /* Support Files */,
+			);
+			name = LGBNavigationBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FEF08E71E04232125110808A3190A222 /* Pods-LGBNavigationBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CF18E125E51E3D7DFCF2EDD4AD4FB /* Info.plist */,
+				3704996BAD2485DF943EA11E1309355C /* Pods-LGBNavigationBar_Example.modulemap */,
+				46C4CAC8B3B4B65CB15191FB9E7DD8C1 /* Pods-LGBNavigationBar_Example-acknowledgements.markdown */,
+				A8F5E46693278AE759724CBBEE74006A /* Pods-LGBNavigationBar_Example-acknowledgements.plist */,
+				CF9CD054F110A8D72A54BDA3DA9A20C1 /* Pods-LGBNavigationBar_Example-dummy.m */,
+				AD19AD55B6623CC5DB529BC75F4B55A8 /* Pods-LGBNavigationBar_Example-frameworks.sh */,
+				0ADE720943861AA40268A172758875D0 /* Pods-LGBNavigationBar_Example-resources.sh */,
+				6085320FDFAEB299A2DB144924C0D762 /* Pods-LGBNavigationBar_Example-umbrella.h */,
+				C5FF39E672AB8A5E9B09554B3AFB5F30 /* Pods-LGBNavigationBar_Example.debug.xcconfig */,
+				0253CB675DA90575BB7EEB16934AC3C8 /* Pods-LGBNavigationBar_Example.release.xcconfig */,
+			);
+			name = "Pods-LGBNavigationBar_Example";
+			path = "Target Support Files/Pods-LGBNavigationBar_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0367C9DD7822B8CAE5DB8BBA3C191B0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18A7AB777E93F15790FD361C8252E36 /* Pods-LGBNavigationBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553FA39C975646E55447AC243E84DED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A364F94D4C5E515051551DD83B355D61 /* LGBNavigationBar-umbrella.h in Headers */,
+				7EDED9BB9F8BC8D3E8704A81909B13FC /* UINavigationBar+lgb_navigationBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C5519790D862339274947FC56A6453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD4F5F377D81E2549DFAA7209D5229 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BFEB2E7B2538DBD7AD2AA928EBA8298 /* LGBNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD93DAF678584A422A0B7E5AF498590 /* Build configuration list for PBXNativeTarget "LGBNavigationBar" */;
+			buildPhases = (
+				0357DFBDC4750E3D86C9B139A239D292 /* Sources */,
+				F1AE21F4DF8E9461DD738291E36FC931 /* Frameworks */,
+				553FA39C975646E55447AC243E84DED9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBNavigationBar;
+			productName = LGBNavigationBar;
+			productReference = 1A936FD2D7D4ABA013ACA84819B8F0A8 /* LGBNavigationBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACD929A6C2C115BF5FF3A977871C46BD /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD67AAD89D4104E537EC66925221129A /* Build configuration list for PBXNativeTarget "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests" */;
+			buildPhases = (
+				87FE4A5138791BE11E17D3D14F9D574D /* Sources */,
+				D8F7C1A5343141675C044D98C6FDD357 /* Frameworks */,
+				70C5519790D862339274947FC56A6453 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				060C676264B913E3596CEB85FD5D62E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests";
+			productName = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests";
+			productReference = 96F9B8B9C6F8D544E8B5E689D6996A7E /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C69324DAB11606E106BB1F68A8EB4B84 /* Pods-LGBNavigationBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABEED3C2241AB162D05221506B7D391 /* Build configuration list for PBXNativeTarget "Pods-LGBNavigationBar_Example" */;
+			buildPhases = (
+				76B09A4E9A4EA7C2E673C96BC3A35CD2 /* Sources */,
+				3817C272F4346AC2D60A383711964F3C /* Frameworks */,
+				0367C9DD7822B8CAE5DB8BBA3C191B0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CF14B2C5F7A7FAC891643120B441509 /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBNavigationBar_Example";
+			productName = "Pods-LGBNavigationBar_Example";
+			productReference = 46C69B1931DD3BFE61A33A0A2D444F79 /* Pods_LGBNavigationBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9628396C9D0405AED5A119E5C7C2C4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFEB2E7B2538DBD7AD2AA928EBA8298 /* LGBNavigationBar */,
+				C69324DAB11606E106BB1F68A8EB4B84 /* Pods-LGBNavigationBar_Example */,
+				ACD929A6C2C115BF5FF3A977871C46BD /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0357DFBDC4750E3D86C9B139A239D292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8854814AA64053B8678AF3D46D828F8E /* LGBNavigationBar-dummy.m in Sources */,
+				965D9B531DA6F33CC5A8CF6AE6DDB819 /* UINavigationBar+lgb_navigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B09A4E9A4EA7C2E673C96BC3A35CD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7556680F7388127E82D74D2981515ED /* Pods-LGBNavigationBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FE4A5138791BE11E17D3D14F9D574D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E579C9D8C8C6C2E3BA21938A1ACF31 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		060C676264B913E3596CEB85FD5D62E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGBNavigationBar;
+			target = 8BFEB2E7B2538DBD7AD2AA928EBA8298 /* LGBNavigationBar */;
+			targetProxy = 57509DD0F87FF20377989362A341E73C /* PBXContainerItemProxy */;
+		};
+		0CF14B2C5F7A7FAC891643120B441509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGBNavigationBar;
+			target = 8BFEB2E7B2538DBD7AD2AA928EBA8298 /* LGBNavigationBar */;
+			targetProxy = 00740BFF3F7ADD830865FCED4E341B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34CE728126EDBE795088F95CF27360BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C427D2DA02E403BA4CC93B97CCC75AC /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		706A369DE8C4E9B650783E5C4F8C0D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9F1297854547422E8BA16DC36CE187 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82E9F01F73716A0711BAFECBE7EEBE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989BB6757039FBF760B0925BA0195097 /* LGBNavigationBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBNavigationBar/LGBNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBNavigationBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBNavigationBar/LGBNavigationBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LGBNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9F7244A7D63574DFEE440B7ED3C9690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989BB6757039FBF760B0925BA0195097 /* LGBNavigationBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBNavigationBar/LGBNavigationBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBNavigationBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBNavigationBar/LGBNavigationBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGBNavigationBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB204F4C70AE71F8BEBD8CFC046ACFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0253CB675DA90575BB7EEB16934AC3C8 /* Pods-LGBNavigationBar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBNavigationBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBNavigationBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BA2AF8E1C5D17E63B26FE36AEFC34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FF39E672AB8A5E9B09554B3AFB5F30 /* Pods-LGBNavigationBar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBNavigationBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBNavigationBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABEED3C2241AB162D05221506B7D391 /* Build configuration list for PBXNativeTarget "Pods-LGBNavigationBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BA2AF8E1C5D17E63B26FE36AEFC34A /* Debug */,
+				DB204F4C70AE71F8BEBD8CFC046ACFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD67AAD89D4104E537EC66925221129A /* Build configuration list for PBXNativeTarget "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706A369DE8C4E9B650783E5C4F8C0D53 /* Debug */,
+				34CE728126EDBE795088F95CF27360BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD93DAF678584A422A0B7E5AF498590 /* Build configuration list for PBXNativeTarget "LGBNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F7244A7D63574DFEE440B7ED3C9690 /* Debug */,
+				82E9F01F73716A0711BAFECBE7EEBE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

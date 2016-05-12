@@ -1,0 +1,6 @@
+framework module Pods_LGBNavigationBar_Example {
+  umbrella header "Pods-LGBNavigationBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

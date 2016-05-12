@@ -1,0 +1,14 @@
+PODS:
+  - LGBNavigationBar (0.1.0)
+
+DEPENDENCIES:
+  - LGBNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  LGBNavigationBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBNavigationBar: a6d0a9bfd606f301e67a795671b622100d32b640
+
+COCOAPODS: 0.39.0

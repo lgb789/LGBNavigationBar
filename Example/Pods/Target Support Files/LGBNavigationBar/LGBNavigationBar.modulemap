@@ -1,0 +1,6 @@
+framework module LGBNavigationBar {
+  umbrella header "LGBNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
