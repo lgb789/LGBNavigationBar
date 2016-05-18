@@ -23,12 +23,14 @@
 }
 
 -(void)lgb_setBackgroundImage:(UIImage *)image
+                     extended:(BOOL)extended
 {
     UIImageView *overlay = [self overlayView];
     if (overlay == nil) {
         [self setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
         self.shadowImage = [UIImage new];
-        CGFloat barHeight = CGRectGetHeight([UIApplication sharedApplication].statusBarFrame);
+        
+        CGFloat barHeight = extended ? CGRectGetHeight([UIApplication sharedApplication].statusBarFrame) : 0;
         overlay = [[UIImageView alloc] initWithFrame:CGRectMake(0, -barHeight, CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds) + barHeight)];
         [self insertSubview:overlay atIndex:0];
         [self setOverlayView:overlay];

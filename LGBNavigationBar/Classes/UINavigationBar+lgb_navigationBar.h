@@ -10,7 +10,8 @@
 
 @interface UINavigationBar (lgb_navigationBar)
 
--(void)lgb_setBackgroundImage:(UIImage *)image;
+-(void)lgb_setBackgroundImage:(UIImage *)image
+                     extended:(BOOL)extended;
 
 -(void)lgb_setBackgroundAlpha:(CGFloat)alpha;
 

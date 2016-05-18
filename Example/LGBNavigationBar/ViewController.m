@@ -17,20 +17,25 @@
 
 @implementation ViewController
 
+-(UIRectEdge)edgesForExtendedLayout
+{
+    return UIRectEdgeNone;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.offsetY = -1;
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
 //    UIImage *img = [UIImage imageNamed:@"上条"];
-//    
+    UIImage *image = [UIImage imageNamed:@"top_bg"];
+//
 //    [self.navigationController.navigationBar lgb_setBackgroundImage:img];
    
-    [self.navigationController.navigationBar lgb_setBackgroundImage:[UIImage imageWithColor:[UIColor yellowColor] cornerRadius:0]];
+    [self.navigationController.navigationBar lgb_setBackgroundImage:image extended:NO];
     
     [self.view addSubview:self.tableView];
     self.tableView.frame = self.view.bounds;
-
 }
 
 -(void)viewWillDisappear:(BOOL)animated
