@@ -7,7 +7,7 @@
 //
 
 #import "LGBAppDelegate.h"
-#import "LGBViewController.h"
+#import "ViewController.h"
 
 @implementation LGBAppDelegate
 
@@ -15,10 +15,17 @@
 {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[LGBViewController new]];
+    self.window.backgroundColor = [UIColor blackColor];
+    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    navigation.navigationBarHidden = YES;
+    [navigation.lgb_transition resetTransition];
     self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
+    
+    [[LGBNavigationBar appearance] setBackgroundImage:[UIImage lgb_ImageWithColor:UIColor.orangeColor] forBarPosition:UIBarPositionTopAttached barMetrics:UIBarMetricsDefault];
+    [[LGBNavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: UIColor.whiteColor}];
+    [[LGBNavigationBar appearance] setBackButtonItem:[[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"back_icon"] style:UIBarButtonItemStylePlain target:nil action:nil]];
+    
     return YES;
 }
 

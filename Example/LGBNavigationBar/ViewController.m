@@ -1,58 +1,69 @@
 //
 //  ViewController.m
-//  CustomNavigationBar
+//  LGBNavigationBar
 //
-//  Created by lgb789 on 16/5/12.
-//  Copyright © 2016年 com.lgb. All rights reserved.
+//  Created by guoquan li on 2018/11/25.
+//Copyright © 2018 lgb789. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "UINavigationBar+lgb_navigationBar.h"
-#import "UIImage+LGImage.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, assign) CGFloat offsetY;
+@property (nonatomic, strong) NSArray *data;
 @end
 
 @implementation ViewController
 
--(UIRectEdge)edgesForExtendedLayout
+#pragma mark ------------------------------------------------- lifecycle ------------------------------------------------
+
+- (void)viewDidLoad
 {
-    return UIRectEdgeNone;
-}
-
-- (void)viewDidLoad {
     [super viewDidLoad];
-    self.offsetY = -1;
-    // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
-//    UIImage *img = [UIImage imageNamed:@"上条"];
-    UIImage *image = [UIImage imageNamed:@"top_bg"];
-//
-//    [self.navigationController.navigationBar lgb_setBackgroundImage:img];
-   
-    [self.navigationController.navigationBar lgb_setBackgroundImage:image extended:NO];
-    
-    [self.view addSubview:self.tableView];
-    self.tableView.frame = self.view.bounds;
+  
+    [self setupViews];
 }
 
--(void)viewWillDisappear:(BOOL)animated
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [self.navigationController.navigationBar lgb_reset];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+#pragma mark ------------------------------------------------- public -------------------------------------------------
 
-#pragma mark - UITableViewDelegate
+#pragma mark ------------------------------------------------- private -------------------------------------------------
+-(void)setupViews
+{
+    UIApplication.sharedApplication.statusBarStyle = UIStatusBarStyleLightContent;
+    
+    self.lgb_naviBar.navigationItem.title = @"Example";
+    
+    NSLog(@"navi bar frame:%@", NSStringFromCGRect(self.navigationController.navigationBar.frame));
+    self.view.backgroundColor = UIColor.whiteColor;
+    self.tableView.frame = CGRectMake(0, CGRectGetHeight(self.navigationController.navigationBar.frame) + 20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) - CGRectGetHeight(self.navigationController.navigationBar.frame) - 20);
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view insertSubview:self.tableView belowSubview:self.lgb_naviBar];
+    
+    self.data = @[
+                  @"Example01",
+                  @"Example02",
+                  @"Example03",
+                  ];
+}
+#pragma mark ------------------------------------------------- delegate -------------------------------------------------
+
+#pragma mark - UITableViewDelegate, UITableViewDataSource
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 100;
+    return self.data.count;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -71,46 +82,33 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:NSStringFromClass([UITableViewCell class])];
     }
+    
+    cell.textLabel.text = self.data[indexPath.row];
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    cell.textLabel.text = [NSString stringWithFormat:@"cell->%ld", indexPath.row];
+    
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    Class class = NSClassFromString(self.data[indexPath.row]);
+    UIViewController *c = [class new];
+    [self.navigationController pushViewController:c animated:YES];
 }
 
--(void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    
-    if (self.offsetY == -1) {
-        self.offsetY = scrollView.contentOffset.y;
-        return;
-    }
-    
-    CGFloat offset = scrollView.contentOffset.y - self.offsetY;
-    
-    CGFloat alpha = MIN(1, offset / CGRectGetHeight(self.navigationController.navigationBar.bounds));
-    
-    NSLog(@"offset y-->%f,%f,%f", scrollView.contentOffset.y, alpha, self.offsetY);
-    
-    [self.navigationController.navigationBar lgb_setBackgroundAlpha:alpha];
-    
-    
-}
+#pragma mark ------------------------------------------------- event -------------------------------------------------
 
+#pragma mark ------------------------------------------------- getters -------------------------------------------------
 -(UITableView *)tableView
 {
     if (_tableView == nil) {
         _tableView = [UITableView new];
-        _tableView.delegate = self;
-        _tableView.dataSource = self;
     }
     return _tableView;
 }
-
 @end

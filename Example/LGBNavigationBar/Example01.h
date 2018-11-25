@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Example01.h
 //  LGBNavigationBar
 //
 //  Created by guoquan li on 2018/11/25.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Example01 : UIViewController
 
 
 @end
