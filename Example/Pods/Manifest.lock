@@ -1,14 +1,16 @@
 PODS:
-  - LGBNavigationBar (0.1.0)
+  - LGBNavigationBar (0.1.2)
 
 DEPENDENCIES:
   - LGBNavigationBar (from `../`)
 
 EXTERNAL SOURCES:
   LGBNavigationBar:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  LGBNavigationBar: a6d0a9bfd606f301e67a795671b622100d32b640
+  LGBNavigationBar: 8b625022cc9f9fc953fb7cbbbac37dc84fff2716
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: d9cc358d0924e507d617a07d125c8f8937f30158
+
+COCOAPODS: 1.5.3

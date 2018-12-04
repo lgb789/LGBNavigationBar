@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LGBNavigationBar"
-  s.version          = "0.1.1"
+  s.version          = "0.1.3"
   s.summary          = "A custom navigation bar."
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ A simple custom navigation bar.
   s.source           = { :git => "https://github.com/lgb789/LGBNavigationBar.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '6.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'LGBNavigationBar/Classes/**/*'
   

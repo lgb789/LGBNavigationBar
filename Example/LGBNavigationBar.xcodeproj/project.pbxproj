@@ -7,17 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4057051CE42E4D00D4A349 /* 上条@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C4057001CE42E4D00D4A349 /* 上条@2x.png */; };
-		2C4057061CE42E4D00D4A349 /* UIImage+LGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4057021CE42E4D00D4A349 /* UIImage+LGImage.m */; };
-		2C4057071CE42E4D00D4A349 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4057041CE42E4D00D4A349 /* ViewController.m */; };
-		2CBCBCDA1CEC27F3000731E7 /* top_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CBCBCD91CEC27F3000731E7 /* top_bg@2x.png */; };
+		5DB671BC6CB69088D164EB2A /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFC201E2931105BF67E715F /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* LGBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LGBAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LGBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LGBViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -25,8 +21,12 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		87D0F4143190BFE04BFB907A /* Pods_LGBNavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF8B9157B3A2A7ABFB51296 /* Pods_LGBNavigationBar_Example.framework */; };
-		94F8497685478996F4BEF3D6 /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4C474AC782BF3C433C378F /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */; };
+		D577F31C5138D49B9D8988CF /* Pods_LGBNavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6662BB50B9A64D9991534670 /* Pods_LGBNavigationBar_Example.framework */; };
+		E6377F0F21AA73CA00562DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F0E21AA73CA00562DB7 /* ViewController.m */; };
+		E6377F1221AA74CD00562DB7 /* Example01.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F1121AA74CD00562DB7 /* Example01.m */; };
+		E6377F1521AA74D800562DB7 /* Example02.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F1421AA74D800562DB7 /* Example02.m */; };
+		E6377F1821AA74E100562DB7 /* Example03.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F1721AA74E100562DB7 /* Example03.m */; };
+		E6377F1D21AA775B00562DB7 /* UIImage+LGBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F1C21AA775B00562DB7 /* UIImage+LGBImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,16 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C4057001CE42E4D00D4A349 /* 上条@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上条@2x.png"; sourceTree = "<group>"; };
-		2C4057011CE42E4D00D4A349 /* UIImage+LGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGImage.h"; sourceTree = "<group>"; };
-		2C4057021CE42E4D00D4A349 /* UIImage+LGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGImage.m"; sourceTree = "<group>"; };
-		2C4057031CE42E4D00D4A349 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C4057041CE42E4D00D4A349 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2CBCBCD91CEC27F3000731E7 /* top_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_bg@2x.png"; sourceTree = "<group>"; };
+		07EA3AA6F49AFA4738C2A658 /* Pods-LGBNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		368188A7FF7682268E5CB234 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EFC201E2931105BF67E715F /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8108451CAA6172CFD1A93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		464082BDBA9F5205B50FC230 /* Pods-LGBNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		496573D0791D6932D96CD9DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4CF8B9157B3A2A7ABFB51296 /* Pods_LGBNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A30B5CA306EC7A0934CEA5A /* Pods-LGBNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49CC7F1E484D27A7C06B2467 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGBNavigationBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBNavigationBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,11 +54,8 @@
 		6003F595195388D20070C39A /* LGBNavigationBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LGBNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* LGBNavigationBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LGBNavigationBar-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LGBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LGBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LGBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGBViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LGBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGBViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LGBNavigationBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGBNavigationBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,12 +63,20 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A4C474AC782BF3C433C378F /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F8B359715034F0F907D8488 /* Pods-LGBNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6662BB50B9A64D9991534670 /* Pods_LGBNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		90B75300F70EBAD50C79F9E8 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE67A9D92C1393CB06C58487 /* LGBNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBNavigationBar.podspec; path = ../LGBNavigationBar.podspec; sourceTree = "<group>"; };
-		EE9C9FC97007904F7B319231 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E6377F0D21AA73CA00562DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6377F0E21AA73CA00562DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6377F1021AA74CD00562DB7 /* Example01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example01.h; sourceTree = "<group>"; };
+		E6377F1121AA74CD00562DB7 /* Example01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example01.m; sourceTree = "<group>"; };
+		E6377F1321AA74D800562DB7 /* Example02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example02.h; sourceTree = "<group>"; };
+		E6377F1421AA74D800562DB7 /* Example02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example02.m; sourceTree = "<group>"; };
+		E6377F1621AA74E100562DB7 /* Example03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example03.h; sourceTree = "<group>"; };
+		E6377F1721AA74E100562DB7 /* Example03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example03.m; sourceTree = "<group>"; };
+		E6377F1A21AA759800562DB7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E6377F1B21AA775A00562DB7 /* UIImage+LGBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LGBImage.h"; sourceTree = "<group>"; };
+		E6377F1C21AA775B00562DB7 /* UIImage+LGBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LGBImage.m"; sourceTree = "<group>"; };
+		EE67A9D92C1393CB06C58487 /* LGBNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBNavigationBar.podspec; path = ../LGBNavigationBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				87D0F4143190BFE04BFB907A /* Pods_LGBNavigationBar_Example.framework in Frameworks */,
+				D577F31C5138D49B9D8988CF /* Pods_LGBNavigationBar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,20 +98,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				94F8497685478996F4BEF3D6 /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework in Frameworks */,
+				5DB671BC6CB69088D164EB2A /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EE66F94D66934955B3983E5 /* Pods */ = {
+		5499F6FC5D524CFFAF3984B2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A30B5CA306EC7A0934CEA5A /* Pods-LGBNavigationBar_Example.debug.xcconfig */,
-				6F8B359715034F0F907D8488 /* Pods-LGBNavigationBar_Example.release.xcconfig */,
-				90B75300F70EBAD50C79F9E8 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */,
-				EE9C9FC97007904F7B319231 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */,
+				07EA3AA6F49AFA4738C2A658 /* Pods-LGBNavigationBar_Example.debug.xcconfig */,
+				464082BDBA9F5205B50FC230 /* Pods-LGBNavigationBar_Example.release.xcconfig */,
+				368188A7FF7682268E5CB234 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */,
+				49CC7F1E484D27A7C06B2467 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -117,12 +119,13 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				E6377F1A21AA759800562DB7 /* PrefixHeader.pch */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LGBNavigationBar */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				2EE66F94D66934955B3983E5 /* Pods */,
+				5499F6FC5D524CFFAF3984B2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,8 +145,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4CF8B9157B3A2A7ABFB51296 /* Pods_LGBNavigationBar_Example.framework */,
-				6A4C474AC782BF3C433C378F /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */,
+				6662BB50B9A64D9991534670 /* Pods_LGBNavigationBar_Example.framework */,
+				3EFC201E2931105BF67E715F /* Pods_LGBNavigationBar_Example_LGBNavigationBar_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,19 +154,21 @@
 		6003F593195388D20070C39A /* Example for LGBNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				2CBCBCD91CEC27F3000731E7 /* top_bg@2x.png */,
-				2C4057001CE42E4D00D4A349 /* 上条@2x.png */,
-				2C4057011CE42E4D00D4A349 /* UIImage+LGImage.h */,
-				2C4057021CE42E4D00D4A349 /* UIImage+LGImage.m */,
-				2C4057031CE42E4D00D4A349 /* ViewController.h */,
-				2C4057041CE42E4D00D4A349 /* ViewController.m */,
 				6003F59C195388D20070C39A /* LGBAppDelegate.h */,
 				6003F59D195388D20070C39A /* LGBAppDelegate.m */,
+				E6377F1B21AA775A00562DB7 /* UIImage+LGBImage.h */,
+				E6377F1C21AA775B00562DB7 /* UIImage+LGBImage.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LGBViewController.h */,
-				6003F5A6195388D20070C39A /* LGBViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E6377F0D21AA73CA00562DB7 /* ViewController.h */,
+				E6377F0E21AA73CA00562DB7 /* ViewController.m */,
+				E6377F1021AA74CD00562DB7 /* Example01.h */,
+				E6377F1121AA74CD00562DB7 /* Example01.m */,
+				E6377F1321AA74D800562DB7 /* Example02.h */,
+				E6377F1421AA74D800562DB7 /* Example02.m */,
+				E6377F1621AA74E100562DB7 /* Example03.h */,
+				E6377F1721AA74E100562DB7 /* Example03.m */,
 			);
 			name = "Example for LGBNavigationBar";
 			path = LGBNavigationBar;
@@ -175,7 +180,6 @@
 				6003F595195388D20070C39A /* LGBNavigationBar-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* LGBNavigationBar-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -216,12 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LGBNavigationBar_Example" */;
 			buildPhases = (
-				50A5D350E915A89EB80448F0 /* Check Pods Manifest.lock */,
+				F318A5DF8024868C21C669AE /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A8924FA7CC394F43F5B6D141 /* Embed Pods Frameworks */,
-				70D501E8CA0B8A3398889C20 /* Copy Pods Resources */,
+				BAF77B564EDEA80CDB475F22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,12 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LGBNavigationBar_Tests" */;
 			buildPhases = (
-				21E482A1C18F3F4291DB60D1 /* Check Pods Manifest.lock */,
+				5FE734BDC30A5BA8E287AECC /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6BEA0EC6914CCAA541CC22BD /* Embed Pods Frameworks */,
-				048EAB5C694D36510A7C996B /* Copy Pods Resources */,
+				D0012329AD54338453A628D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,9 +262,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = LGB;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = lgb789;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7CKU2V5F6W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -293,8 +298,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				2C4057051CE42E4D00D4A349 /* 上条@2x.png in Resources */,
-				2CBCBCDA1CEC27F3000731E7 /* top_bg@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -311,94 +314,92 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		048EAB5C694D36510A7C996B /* Copy Pods Resources */ = {
+		5FE734BDC30A5BA8E287AECC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		21E482A1C18F3F4291DB60D1 /* Check Pods Manifest.lock */ = {
+		BAF77B564EDEA80CDB475F22 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LGBNavigationBar/LGBNavigationBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGBNavigationBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		50A5D350E915A89EB80448F0 /* Check Pods Manifest.lock */ = {
+		D0012329AD54338453A628D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6BEA0EC6914CCAA541CC22BD /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LGBNavigationBar/LGBNavigationBar.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGBNavigationBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests/Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		70D501E8CA0B8A3398889C20 /* Copy Pods Resources */ = {
+		F318A5DF8024868C21C669AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGBNavigationBar_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A8924FA7CC394F43F5B6D141 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBNavigationBar_Example/Pods-LGBNavigationBar_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -408,11 +409,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6377F0F21AA73CA00562DB7 /* ViewController.m in Sources */,
+				E6377F1D21AA775B00562DB7 /* UIImage+LGBImage.m in Sources */,
+				E6377F1521AA74D800562DB7 /* Example02.m in Sources */,
 				6003F59E195388D20070C39A /* LGBAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* LGBViewController.m in Sources */,
-				2C4057061CE42E4D00D4A349 /* UIImage+LGImage.m in Sources */,
+				E6377F1821AA74E100562DB7 /* Example03.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				2C4057071CE42E4D00D4A349 /* ViewController.m in Sources */,
+				E6377F1221AA74CD00562DB7 /* Example01.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,19 +465,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -487,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -502,25 +518,38 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -529,14 +558,15 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A30B5CA306EC7A0934CEA5A /* Pods-LGBNavigationBar_Example.debug.xcconfig */;
+			baseConfigurationReference = 07EA3AA6F49AFA4738C2A658 /* Pods-LGBNavigationBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7CKU2V5F6W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LGBNavigationBar/LGBNavigationBar-Prefix.pch";
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/PrefixHeader.pch";
 				INFOPLIST_FILE = "LGBNavigationBar/LGBNavigationBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -547,14 +577,15 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F8B359715034F0F907D8488 /* Pods-LGBNavigationBar_Example.release.xcconfig */;
+			baseConfigurationReference = 464082BDBA9F5205B50FC230 /* Pods-LGBNavigationBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7CKU2V5F6W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LGBNavigationBar/LGBNavigationBar-Prefix.pch";
+				GCC_PREFIX_HEADER = "${PROJECT_DIR}/PrefixHeader.pch";
 				INFOPLIST_FILE = "LGBNavigationBar/LGBNavigationBar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -565,7 +596,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B75300F70EBAD50C79F9E8 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = 368188A7FF7682268E5CB234 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -589,7 +620,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE9C9FC97007904F7B319231 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 49CC7F1E484D27A7C06B2467 /* Pods-LGBNavigationBar_Example-LGBNavigationBar_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

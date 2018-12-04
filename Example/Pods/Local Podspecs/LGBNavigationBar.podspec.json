@@ -1,6 +1,6 @@
 {
   "name": "LGBNavigationBar",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A custom navigation bar.",
   "description": "A simple custom navigation bar.",
   "homepage": "https://github.com/lgb789/LGBNavigationBar",
@@ -10,10 +10,10 @@
   },
   "source": {
     "git": "https://github.com/lgb789/LGBNavigationBar.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "6.0"
+    "ios": "8.0"
   },
   "source_files": "LGBNavigationBar/Classes/**/*"
 }
