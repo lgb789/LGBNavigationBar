@@ -43,16 +43,15 @@
     self.dragPop.navigationController = self.navigationController;
     self.pushAnimation = [LGBPushAnimation new];
     self.popAnimation = [LGBPopAnimation new];
+    
+    [self.dragPop panPopGestureEnable:YES];
 }
 
--(void)setPopGestureEnable:(BOOL)enable
+-(void)setPanPopGestureEnable:(BOOL)enable
 {
-    if (!self.dragPop) {
-        self.dragPop = [LGBDragPop new];
-    }
-    
-    self.dragPop.navigationController = enable ? self.navigationController : nil;
+    [self.dragPop panPopGestureEnable:enable];
 }
+
 #pragma mark ------------------------------------------------- private -------------------------------------------------
 
 #pragma mark ------------------------------------------------- delegate -------------------------------------------------

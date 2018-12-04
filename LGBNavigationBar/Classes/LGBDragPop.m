@@ -9,18 +9,28 @@
 #import "LGBDragPop.h"
 
 @interface LGBDragPop ()
-
+@property (nonatomic, strong) UIPanGestureRecognizer *panPopGestureRecognizer;
 @end
 
 @implementation LGBDragPop
 
--(void)setNavigationController:(UINavigationController *)navigationController
+//-(void)setNavigationController:(UINavigationController *)navigationController
+//{
+//    _navigationController = navigationController;
+//    if (_navigationController) {
+//        UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onPan:)];
+//        [self.navigationController.view addGestureRecognizer:pan];
+//        self.panPopGestureRecognizer = pan;
+//    }
+//}
+
+-(void)panPopGestureEnable:(BOOL)enable
 {
-    _navigationController = navigationController;
-    if (_navigationController) {
-        UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onPan:)];
-        [self.navigationController.view addGestureRecognizer:pan];
+    
+    if(![self.navigationController.view.gestureRecognizers containsObject:self.panPopGestureRecognizer]){
+        [self.navigationController.view addGestureRecognizer:self.panPopGestureRecognizer];
     }
+    self.panPopGestureRecognizer.enabled = enable;
 }
 
 -(void)onPan:(UIPanGestureRecognizer *)pan
@@ -76,6 +86,14 @@
         default:
             break;
     }
+}
+
+-(UIPanGestureRecognizer *)panPopGestureRecognizer
+{
+    if(_panPopGestureRecognizer == nil) {
+        _panPopGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onPan:)];
+    }
+    return _panPopGestureRecognizer;
 }
 
 @end

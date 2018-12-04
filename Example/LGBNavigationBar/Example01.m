@@ -29,13 +29,15 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.navigationController.lgb_transition setPopGestureEnable:NO];
+    
+    [self.navigationController.lgb_transition setPanPopGestureEnable:NO];
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [self.navigationController.lgb_transition setPopGestureEnable:YES];
+    [self.navigationController.lgb_transition setPanPopGestureEnable:YES];
 }
 
 #pragma mark ------------------------------------------------- public -------------------------------------------------

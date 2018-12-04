@@ -14,5 +14,6 @@
 
 -(void)resetTransition;
 
--(void)setPopGestureEnable:(BOOL)enable;
+-(void)setPanPopGestureEnable:(BOOL)enable;
+
 @end

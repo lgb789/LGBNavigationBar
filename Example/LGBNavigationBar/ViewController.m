@@ -28,6 +28,7 @@
 {
     [super viewWillAppear:animated];
     
+    NSLog(@"gesture:%@", self.navigationController.view.gestureRecognizers);
 }
 
 - (void)viewWillDisappear:(BOOL)animated
