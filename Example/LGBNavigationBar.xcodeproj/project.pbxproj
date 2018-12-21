@@ -21,6 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B8A82A6D21CC8FF6001E0C20 /* Example04.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A82A6821CC8FF5001E0C20 /* Example04.m */; };
+		B8A82A6E21CC8FF6001E0C20 /* Example05.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A82A6B21CC8FF5001E0C20 /* Example05.m */; };
+		B8A82A6F21CC8FF6001E0C20 /* Example06.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A82A6C21CC8FF6001E0C20 /* Example06.m */; };
 		D577F31C5138D49B9D8988CF /* Pods_LGBNavigationBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6662BB50B9A64D9991534670 /* Pods_LGBNavigationBar_Example.framework */; };
 		E6377F0F21AA73CA00562DB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F0E21AA73CA00562DB7 /* ViewController.m */; };
 		E6377F1221AA74CD00562DB7 /* Example01.m in Sources */ = {isa = PBXBuildFile; fileRef = E6377F1121AA74CD00562DB7 /* Example01.m */; };
@@ -65,6 +68,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6662BB50B9A64D9991534670 /* Pods_LGBNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B8A82A6721CC8FF4001E0C20 /* Example06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example06.h; sourceTree = "<group>"; };
+		B8A82A6821CC8FF5001E0C20 /* Example04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example04.m; sourceTree = "<group>"; };
+		B8A82A6921CC8FF5001E0C20 /* Example05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example05.h; sourceTree = "<group>"; };
+		B8A82A6A21CC8FF5001E0C20 /* Example04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example04.h; sourceTree = "<group>"; };
+		B8A82A6B21CC8FF5001E0C20 /* Example05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example05.m; sourceTree = "<group>"; };
+		B8A82A6C21CC8FF6001E0C20 /* Example06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example06.m; sourceTree = "<group>"; };
 		E6377F0D21AA73CA00562DB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E6377F0E21AA73CA00562DB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6377F1021AA74CD00562DB7 /* Example01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Example01.h; sourceTree = "<group>"; };
@@ -169,6 +178,12 @@
 				E6377F1421AA74D800562DB7 /* Example02.m */,
 				E6377F1621AA74E100562DB7 /* Example03.h */,
 				E6377F1721AA74E100562DB7 /* Example03.m */,
+				B8A82A6A21CC8FF5001E0C20 /* Example04.h */,
+				B8A82A6821CC8FF5001E0C20 /* Example04.m */,
+				B8A82A6921CC8FF5001E0C20 /* Example05.h */,
+				B8A82A6B21CC8FF5001E0C20 /* Example05.m */,
+				B8A82A6721CC8FF4001E0C20 /* Example06.h */,
+				B8A82A6C21CC8FF6001E0C20 /* Example06.m */,
 			);
 			name = "Example for LGBNavigationBar";
 			path = LGBNavigationBar;
@@ -409,12 +424,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A82A6F21CC8FF6001E0C20 /* Example06.m in Sources */,
+				B8A82A6E21CC8FF6001E0C20 /* Example05.m in Sources */,
 				E6377F0F21AA73CA00562DB7 /* ViewController.m in Sources */,
 				E6377F1D21AA775B00562DB7 /* UIImage+LGBImage.m in Sources */,
 				E6377F1521AA74D800562DB7 /* Example02.m in Sources */,
 				6003F59E195388D20070C39A /* LGBAppDelegate.m in Sources */,
 				E6377F1821AA74E100562DB7 /* Example03.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B8A82A6D21CC8FF6001E0C20 /* Example04.m in Sources */,
 				E6377F1221AA74CD00562DB7 /* Example01.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

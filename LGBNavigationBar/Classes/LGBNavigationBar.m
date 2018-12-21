@@ -43,7 +43,9 @@ static NSString *kNaviBarCenterKey = @"center";
 -(void)setBackButtonItem:(UIBarButtonItem *)backButtonItem
 {
     if (self.navigationController.viewControllers.count > 1 && self.navigationItem.leftBarButtonItem == nil && self.navigationItem.leftBarButtonItems == nil) {
-        self.navigationItem.leftBarButtonItem = backButtonItem;
+        NSData *data = [NSKeyedArchiver archivedDataWithRootObject:backButtonItem];
+        UIBarButtonItem *item = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+        self.navigationItem.leftBarButtonItem = item;
         [self.navigationItem.leftBarButtonItem setTarget:self];
         [self.navigationItem.leftBarButtonItem setAction:@selector(handlePressedBackButtonItem)];
     }
