@@ -15,36 +15,30 @@
 
 @implementation LGBDragPop
 
-//-(void)setNavigationController:(UINavigationController *)navigationController
-//{
-//    _navigationController = navigationController;
-//    if (_navigationController) {
-//        UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onPan:)];
-//        [self.navigationController.view addGestureRecognizer:pan];
-//        self.panPopGestureRecognizer = pan;
-//    }
-//}
-
 -(void)enablePanPopGesture
 {
-    [self.navigationController.view removeGestureRecognizer:self.screenPanPopGestureRecognizer];
+    self.screenPanPopGestureRecognizer.enabled = NO;
     if(![self.navigationController.view.gestureRecognizers containsObject:self.panPopGestureRecognizer]){
         [self.navigationController.view addGestureRecognizer:self.panPopGestureRecognizer];
     }
+    
+    self.panPopGestureRecognizer.enabled = YES;
 }
 
 -(void)enableScreenPanPopGestureEnable
 {
-    [self.navigationController.view removeGestureRecognizer:self.panPopGestureRecognizer];
+    self.panPopGestureRecognizer.enabled = NO;
     if(![self.navigationController.view.gestureRecognizers containsObject:self.screenPanPopGestureRecognizer]){
         [self.navigationController.view addGestureRecognizer:self.screenPanPopGestureRecognizer];
     }
+    
+    self.screenPanPopGestureRecognizer.enabled = YES;
 }
 
 -(void)disablePanPopGesture
 {
-    [self.navigationController.view removeGestureRecognizer:self.panPopGestureRecognizer];
-    [self.navigationController.view removeGestureRecognizer:self.screenPanPopGestureRecognizer];
+    self.panPopGestureRecognizer.enabled = NO;
+    self.screenPanPopGestureRecognizer.enabled = NO;
 }
 
 -(void)onPan:(UIPanGestureRecognizer *)pan
