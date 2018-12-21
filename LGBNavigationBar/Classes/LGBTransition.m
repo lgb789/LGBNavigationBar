@@ -42,14 +42,25 @@
     self.dragPop = [LGBDragPop new];
     self.dragPop.navigationController = self.navigationController;
     self.pushAnimation = [LGBPushAnimation new];
-    self.popAnimation = [LGBPopAnimation new];
-    
-    [self.dragPop panPopGestureEnable:YES];
+    self.popAnimation = [LGBPopAnimation new];    
 }
 
--(void)setPanPopGestureEnable:(BOOL)enable
+-(void)setPopPanType:(LGBTransitionPanType)panType
 {
-    [self.dragPop panPopGestureEnable:enable];
+    switch (panType) {
+        case LGBTransitionPanTypeNone:
+            [self.dragPop disablePanPopGesture];
+            break;
+        case LGBTransitionPanTypePan:
+            [self.dragPop enablePanPopGesture];
+            break;
+        case LGBTransitionPanTypeScreenPan:
+            [self.dragPop enableScreenPanPopGestureEnable];
+            break;
+            
+        default:
+            break;
+    }
 }
 
 #pragma mark ------------------------------------------------- private -------------------------------------------------

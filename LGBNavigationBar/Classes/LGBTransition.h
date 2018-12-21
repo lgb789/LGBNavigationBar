@@ -8,12 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum : NSUInteger {
+    LGBTransitionPanTypeNone,
+    LGBTransitionPanTypePan,
+    LGBTransitionPanTypeScreenPan,
+} LGBTransitionPanType;
+
 @interface LGBTransition : NSObject
 
 -(instancetype)initWithNavigationController:(UINavigationController *)navigationController;
 
 -(void)resetTransition;
 
--(void)setPanPopGestureEnable:(BOOL)enable;
+-(void)setPopPanType:(LGBTransitionPanType)panType;
 
 @end

@@ -46,7 +46,15 @@
 {
     [super viewDidAppear:animated];
     NSLog(@"example05 did appear");
-//    [self.navigationController.lgb_transition setPanPopGestureEnable:NO];
+//    [self.navigationController.lgb_transition setScreenPanPopGestureEnable:YES];
+    [self.navigationController.lgb_transition setPopPanType:LGBTransitionPanTypeScreenPan];
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:animated];
+    NSLog(@"example05 viewDidDisappear");
+//    [self.navigationController.lgb_transition setPanPopGestureEnable:YES];
 }
 
 #pragma mark ------------------------------------------------- public -------------------------------------------------

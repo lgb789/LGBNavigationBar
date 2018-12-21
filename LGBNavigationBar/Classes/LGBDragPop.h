@@ -24,6 +24,9 @@
 @property (nonatomic, weak) UINavigationController *navigationController;
 @property (nonatomic, assign) BOOL interacting;
 
--(void)panPopGestureEnable:(BOOL)enable;
+-(void)enablePanPopGesture;
 
+-(void)enableScreenPanPopGestureEnable;
+
+-(void)disablePanPopGesture;
 @end

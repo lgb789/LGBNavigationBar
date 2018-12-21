@@ -10,6 +10,7 @@
 
 @interface LGBDragPop ()
 @property (nonatomic, strong) UIPanGestureRecognizer *panPopGestureRecognizer;
+@property (nonatomic, strong) UIScreenEdgePanGestureRecognizer *screenPanPopGestureRecognizer;
 @end
 
 @implementation LGBDragPop
@@ -24,13 +25,26 @@
 //    }
 //}
 
--(void)panPopGestureEnable:(BOOL)enable
+-(void)enablePanPopGesture
 {
-    
+    [self.navigationController.view removeGestureRecognizer:self.screenPanPopGestureRecognizer];
     if(![self.navigationController.view.gestureRecognizers containsObject:self.panPopGestureRecognizer]){
         [self.navigationController.view addGestureRecognizer:self.panPopGestureRecognizer];
     }
-    self.panPopGestureRecognizer.enabled = enable;
+}
+
+-(void)enableScreenPanPopGestureEnable
+{
+    [self.navigationController.view removeGestureRecognizer:self.panPopGestureRecognizer];
+    if(![self.navigationController.view.gestureRecognizers containsObject:self.screenPanPopGestureRecognizer]){
+        [self.navigationController.view addGestureRecognizer:self.screenPanPopGestureRecognizer];
+    }
+}
+
+-(void)disablePanPopGesture
+{
+    [self.navigationController.view removeGestureRecognizer:self.panPopGestureRecognizer];
+    [self.navigationController.view removeGestureRecognizer:self.screenPanPopGestureRecognizer];
 }
 
 -(void)onPan:(UIPanGestureRecognizer *)pan
@@ -94,6 +108,15 @@
         _panPopGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(onPan:)];
     }
     return _panPopGestureRecognizer;
+}
+
+-(UIScreenEdgePanGestureRecognizer *)screenPanPopGestureRecognizer
+{
+    if(_screenPanPopGestureRecognizer == nil) {
+        _screenPanPopGestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(onPan:)];
+        _screenPanPopGestureRecognizer.edges = UIRectEdgeLeft;
+    }
+    return _screenPanPopGestureRecognizer;
 }
 
 @end

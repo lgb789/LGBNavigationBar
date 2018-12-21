@@ -19,6 +19,8 @@
     UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
     navigation.navigationBarHidden = YES;
     [navigation.lgb_transition resetTransition];
+    [navigation.lgb_transition setPopPanType:LGBTransitionPanTypePan];
+    
     self.window.rootViewController = navigation;
     [self.window makeKeyAndVisible];
     

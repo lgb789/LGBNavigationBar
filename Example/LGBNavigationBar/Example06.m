@@ -38,6 +38,11 @@
 
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.navigationController.lgb_transition setPopPanType:LGBTransitionPanTypePan];
+}
 #pragma mark ------------------------------------------------- public -------------------------------------------------
 
 #pragma mark ------------------------------------------------- delegate -------------------------------------------------
